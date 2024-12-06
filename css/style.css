@@ -1,0 +1,51 @@
+/*
+Code by Utsav Patel
+Style CSS for design
+*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #212221;
+    color: #d7d3d3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  h3{
+    width: 60%;
+    font-weight: 300;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #cat-display img {
+    max-width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
